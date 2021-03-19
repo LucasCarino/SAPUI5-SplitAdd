@@ -1,0 +1,9 @@
+<mvc:View controllerName="Ejercicio12.Ejercicio12.controller.Detail" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="{SelectedProductModel>/sectionName}">
+        <List id="products" items="{SelectedProductModel>/products}" mode="SingleSelectMaster" selectionChange="onSelectionChange" headerText="Nuestras {SelectedProductModel>/sectionName}">
+            <items>
+                <StandardListItem title="{SelectedProductModel>productName}" type="Active" press="onSelectionChange"/>
+            </items>
+        </List>
+	</Page>
+</mvc:View>

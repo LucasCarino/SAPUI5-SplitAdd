@@ -1,0 +1,66 @@
+{
+	"menu": [
+		{
+			"productsId": 0,
+			"sectionName": "Comidas",
+			"products": [
+				{
+					"productId": 0,
+                    "productName": "Hamburguesa",
+                    "price": 100
+				},
+				{
+					"productId": 1,
+                    "productName": "Pizza",
+                    "price": 300
+				},
+				{
+					"productId": 2,
+                    "productName": "Fideos",
+                    "price": 50
+				},
+				{
+					"productId": 3,
+                    "productName": "Sushi",
+                    "price": 500
+				},
+				{
+					"productId": 4,
+                    "productName": "Wrap",
+                    "price": 150
+				}
+			]
+		},
+		{
+        "productsId": 1,
+        "sectionName": "Bebidas",
+        "products": [
+				{
+					"productId": 0,
+                    "productName": "Pepsi",
+                    "price": 70
+				},
+				{
+					"productId": 1,
+                    "productName": "Limonada",
+                    "price": 200
+				},
+				{
+					"productId": 2,
+                    "productName": "Café",
+                    "price": 80
+				},
+				{
+					"productId": 3,
+                    "productName": "Té",
+                    "price": 70
+				},
+				{
+					"productId": 4,
+                    "productName": "Naranja",
+                    "price": 300
+				}
+			]
+		}
+	]
+}

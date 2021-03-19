@@ -1,0 +1,9 @@
+<mvc:View controllerName="Ejercicio12.Ejercicio12.controller.Master" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="Menú">
+        <List items="{ProductsModel>/menu}" mode="SingleSelectMaster" selectionChange="onSelectionChange">
+			<items>
+				<StandardListItem title="{ProductsModel>sectionName}" type="Active" press="onSelectionChange"/>
+			</items>
+		</List>
+    </Page>
+</mvc:View>

@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <Dialog id="DetailDialog"
+    title="Detalle del producto"
+    >   
+        <FlexBox direction="Column">
+            <Text text="Nombre: {DetailProductModel>/productName}" />
+            <Text text="Precio: {DetailProductModel>/price}" />
+            <FlexBox alignItems="Center" justifyContent="Center">
+                <Button text="Salir" press="closeDialog" width="160px"/>
+            </FlexBox>
+        </FlexBox>
+    </Dialog>
+</core:FragmentDefinition>
